@@ -1,0 +1,10 @@
+{
+    "name": "bht/geolocation",
+    "require": {
+        "drupal/geocoder": "^3.24",
+        "drupal/geofield": "^1.35",
+        "drupal/geofield_map": "^2.71",
+        "drupal/leaflet": "^2.1",
+        "geocoder-php/nominatim-provider": "^5.5"
+    }
+}
