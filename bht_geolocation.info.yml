@@ -1,0 +1,13 @@
+name: BHT Geolocation
+type: module
+description: Defines general geolocation configuration.
+package: BHT
+core_version_requirement: ^9
+dependencies:
+  - address
+  - geofield
+  - geofield_map
+  - geocoder
+  - leaflet
+  - leaflet_markercluster
+  - leaflet_views

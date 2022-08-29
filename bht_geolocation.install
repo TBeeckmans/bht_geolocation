@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function bht_geolocation_install($is_syncing) {
+
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function bht_geolocation_uninstall($is_syncing) {
+  /* Remove BHT configured openstreetmap provider. */
+  \Drupal::configFactory()->getEditable('geocoder.geocoder_provider.openstreetmap')->delete();
+}
