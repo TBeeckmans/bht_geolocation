@@ -1,5 +1,13 @@
 {
     "name": "bht/geolocation",
+    "type": "drupal-custom-module",
+    "keywords": ["Drupal", "bht_geolocation"],
+    "authors": [
+      {
+        "name": "Thierry Beeckmans",
+        "email": "webmaster@bht.be"
+      }
+    ]
     "require": {
         "drupal/geocoder": "^3.24",
         "drupal/geofield": "^1.35",
