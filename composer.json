@@ -7,7 +7,7 @@
         "name": "Thierry Beeckmans",
         "email": "webmaster@bht.be"
       }
-    ]
+    ],
     "require": {
         "drupal/geocoder": "^3.24",
         "drupal/geofield": "^1.35",
