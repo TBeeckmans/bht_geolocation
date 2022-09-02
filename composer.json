@@ -1,5 +1,5 @@
 {
-    "name": "bht/geolocation",
+    "name": "bht/bht_geolocation",
     "type": "drupal-custom-module",
     "keywords": ["Drupal", "bht_geolocation"],
     "authors": [
