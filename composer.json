@@ -1,12 +1,15 @@
 {
     "name": "bht/bht_geolocation",
     "type": "drupal-custom-module",
-    "keywords": ["Drupal", "bht_geolocation"],
+    "keywords": [
+        "Drupal",
+        "bht_geolocation"
+    ],
     "authors": [
-      {
-        "name": "Thierry Beeckmans",
-        "email": "webmaster@bht.be"
-      }
+        {
+            "name": "Thierry Beeckmans",
+            "email": "webmaster@bht.be"
+        }
     ],
     "require": {
         "drupal/geocoder": "^3.24",
@@ -14,5 +17,12 @@
         "drupal/geofield_map": "^2.71",
         "drupal/leaflet": "^2.1",
         "geocoder-php/nominatim-provider": "^5.5"
+    },
+    "extra": {
+        "patches": {
+            "drupal/address": {
+                "Allow to set a list of preferred countries - https://www.drupal.org/project/address/issues/2626982": "https://www.drupal.org/files/issues/2019-11-11/2626982-37.preferred_countries.patch"
+            }
+        }
     }
 }
